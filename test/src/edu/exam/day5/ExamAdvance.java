@@ -39,7 +39,7 @@ public class ExamAdvance
 			{
 				output="\t\t"+output;
 			}
-			if((i%2!=1&&n%2==0)||(i%2==1&&n%2!=0))
+			if((i%2==0&&n%2==0)||(i%2!=0&&n%2!=0))
 			{
 				output="\t"+output;
 			}

@@ -32,10 +32,14 @@ public class ExamAdvance
 			String output = "";
 			for (int j = 0; j <= i; j++)
 			{
-				output+=arr[i][j]+"\t";
+				output+=arr[i][j]+"\t\t";
 			}
 			int count = (arr[i].length-i-1)/2;
 			for(int j = 0;j<count;j++)
+			{
+				output="\t\t"+output;
+			}
+			if((i%2!=1&&n%2==0)||(i%2==1&&n%2!=0))
 			{
 				output="\t"+output;
 			}

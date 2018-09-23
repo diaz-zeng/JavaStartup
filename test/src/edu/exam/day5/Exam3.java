@@ -26,10 +26,7 @@ public class Exam3
 //			}
 //			System.out.print(arr1[i]+"\t");
 //		}
-
 		java.util.Arrays.toString(arr1);
-
-		Arrays.toString(arr1);
 	}
 
 }

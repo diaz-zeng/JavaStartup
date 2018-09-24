@@ -98,7 +98,7 @@ public class Exam2
 
 		for (int i = 0; i < arr.length; i++)
 		{
-			for (int j = 1; j < arr.length-i-1; j++)
+			for (int j = 1; j < arr.length-i; j++)
 			{
 				int temp = 0;
 				if (arr[j-1] > arr[j])

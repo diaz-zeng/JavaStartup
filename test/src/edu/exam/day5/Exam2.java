@@ -72,13 +72,14 @@ public class Exam2
 
 		for (int i = 0; i < arr.length; i++)
 		{
-			int temp = arr[i];
+			int temp = 0;
 			for (int j = i; j < arr.length; j++)
 			{
-				if (temp > arr[j])
+				if (arr[i] > arr[j])
 				{
-					arr[i] = arr[j];
-					arr[j] = temp;
+					temp = arr[j];
+					arr[j] = arr[i];
+					arr[i] = temp;
 				}
 			}
 		}

@@ -9,7 +9,7 @@ public class ExamAdvance
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
-		System.err.println("请输入想要打印的行数");
+		System.err.println("璇疯緭鍏ユ兂瑕佹墦鍗扮殑琛屾暟");
 		int n = new Scanner(System.in).nextInt();
 		int[][] arr = new int[n][n];
 		for (int i = 0; i < arr.length; i++)

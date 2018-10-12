@@ -7,11 +7,11 @@ public class Exam1
 	
 	public static void main(String[] args)
 	{
-		System.out.println("请输入：");
+		System.out.println("璇疯緭鍏ワ細");
 		int inputNum = new Scanner(System.in).nextInt();
 		StringBuilder stringBuilder = new StringBuilder(5);
 		stringBuilder.append(inputNum);
-		System.out.println("该数为："+stringBuilder.length()+"位数");
+		System.out.println("璇ユ暟涓猴細"+stringBuilder.length()+"浣嶆暟");
 		stringBuilder.reverse();
 		for (int i = 0 ; i< stringBuilder.length();i++)
 		{

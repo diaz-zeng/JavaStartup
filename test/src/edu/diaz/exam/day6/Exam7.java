@@ -13,13 +13,13 @@ public class Exam7
 	{
 		// TODO Auto-generated method stub
 		int[] arr = new int[4];
-		System.out.println("ÇëÊäÈëµÚÒ»¸öÊı:");
+		System.out.println("è¯·è¾“å…¥ç¬¬ä¸€ä¸ªæ•°:");
 		arr[0] = new Scanner(System.in).nextInt();
-		System.out.println("ÇëÊäÈëµÚ¶ş¸öÊı:");
+		System.out.println("è¯·è¾“å…¥ç¬¬äºŒä¸ªæ•°:");
 		arr[1] = new Scanner(System.in).nextInt();
-		System.out.println("ÇëÊäÈëµÚÈı¸öÊı:");
+		System.out.println("è¯·è¾“å…¥ç¬¬ä¸‰ä¸ªæ•°:");
 		arr[2] = new Scanner(System.in).nextInt();
-		System.out.println("ÇëÊäÈëµÚËÄ¸öÊı:");
+		System.out.println("è¯·è¾“å…¥ç¬¬å››ä¸ªæ•°:");
 		arr[3] = new Scanner(System.in).nextInt();
 		System.out.println(Arrays.toString(arr));
 		ArrayList<Integer> arrTemp = new ArrayList<>();
@@ -32,7 +32,7 @@ public class Exam7
 		}
 		if(!arrTemp.isEmpty())
 		{
-			String outPut = "´óÓÚÊ®µÄÔªËØÓĞ:\t";
+			String outPut = "å¤§äºåçš„å…ƒç´ æœ‰:\t";
 			for (Integer integer : arrTemp)
 			{
 				

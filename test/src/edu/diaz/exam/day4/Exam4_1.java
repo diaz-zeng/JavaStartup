@@ -18,7 +18,7 @@ public class Exam4_1
 				count += 1;
 			}
 		}
-		System.out.printf("¹²%sÖÖ½á¹û", count);
+		System.out.printf("å…±%sç§ç»“æœ", count);
 	}
 
 }

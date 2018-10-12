@@ -14,7 +14,7 @@ public class Exam4_4
 	{
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»¸öÊı£º");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•°ï¼š");
 		try
 		{
 			int input = scanner.nextInt();
@@ -33,7 +33,7 @@ public class Exam4_4
 		} catch (InputMismatchException e)
 		{
 			// TODO: handle exception
-			System.err.println("ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈë");
+			System.err.println("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
 			main(args);
 			return;
 		}

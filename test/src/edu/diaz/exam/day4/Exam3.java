@@ -6,18 +6,18 @@ public class Exam3
 
 	public static void main(String[] args)
 	{
-		System.out.println("ÕâÊÇ·ç¸ñ1£º");
+		System.out.println("è¿™æ˜¯é£Žæ ¼1ï¼š");
 		mode1();
 		System.out.println();
-		System.out.println("ÕâÊÇ·ç¸ñ2£º");
+		System.out.println("è¿™æ˜¯é£Žæ ¼2ï¼š");
 		mode2();
 
 		System.out.println();
-		System.out.println("ÕâÊÇ·ç¸ñ3£º");
+		System.out.println("è¿™æ˜¯é£Žæ ¼3ï¼š");
 		mode3();
 
 		System.out.println();
-		System.out.println("ÕâÊÇ·ç¸ñ4£º");
+		System.out.println("è¿™æ˜¯é£Žæ ¼4ï¼š");
 		mode4();
 	}
 

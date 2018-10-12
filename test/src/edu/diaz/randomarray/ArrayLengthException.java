@@ -5,6 +5,6 @@ public class ArrayLengthException extends Exception
 	public ArrayLengthException()
 	{
 		// TODO Auto-generated constructor stub
-		super("数组长度不能小于1");
+		super("鏁扮粍闀垮害涓嶈兘灏忎簬1");
 	}
 }

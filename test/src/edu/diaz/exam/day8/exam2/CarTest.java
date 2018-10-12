@@ -8,10 +8,10 @@ public class CarTest
 		// TODO Auto-generated method stub
 		Car c1,c2;
 		c1 = new Car();
-		c1.setLicensePlate("ÁÉA1234");
+		c1.setLicensePlate("è¾½A1234");
 		c1.setLoadWeight(100);
 		c1.setSpeed(100);
-		c2 = new Car(100, "ÁÉA1234", (double) 100);
+		c2 = new Car(100, "è¾½A1234", (double) 100);
 	}
 
 }

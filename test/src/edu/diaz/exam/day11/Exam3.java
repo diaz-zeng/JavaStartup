@@ -11,6 +11,6 @@ public class Exam3
 		b = currentPath.split(":")[1];
 		String[] c = currentPath.split("\\\\");
 		d = currentPath.split("\\.")[1];
-		System.out.println("ÅÌ·ûÊÇ:" + a + " Â·¾¶ÊÇ:" + b + " ÎÄ¼şÃûÊÇ:" + c[c.length-1]+" ÎÄ¼şÀàĞÍÊÇ:"+d);
+		System.out.println("ç›˜ç¬¦æ˜¯:" + a + " è·¯å¾„æ˜¯:" + b + " æ–‡ä»¶åæ˜¯:" + c[c.length-1]+" æ–‡ä»¶ç±»å‹æ˜¯:"+d);
 	}
 }

@@ -4,19 +4,19 @@ public class TeacherTest
 {
 	public static void main(String[] args)
 	{
-		// ´´½¨¶ÔÏó
+		// åˆ›å»ºå¯¹è±¡
 		Teacher t = new Teacher();
 
-		// Îª¶ÔÏóµÄÊôĞÔ¸³Öµ
+		// ä¸ºå¯¹è±¡çš„å±æ€§èµ‹å€¼
 		t.setName("George");
 		t.setAge(30);
 		t.setSalary(10000);
 
-		// Êä³ö¶ÔÏóµÄÊôĞÔ
+		// è¾“å‡ºå¯¹è±¡çš„å±æ€§
 		System.out.println("name=" + t.getName());
 		System.out.println("age=" + t.getAge());
 		System.out.println("salary=" + t.getSalary());
-		// µ÷ÓÃÊ¹ÄêÁäÔö¼ÓµÄ·½·¨²¢Êä³öÔö¼ÓºóµÄÄêÁä
+		// è°ƒç”¨ä½¿å¹´é¾„å¢åŠ çš„æ–¹æ³•å¹¶è¾“å‡ºå¢åŠ åçš„å¹´é¾„
 		t.increaseAge();
 		System.out.println("new age=" + t.getAge());
 	}

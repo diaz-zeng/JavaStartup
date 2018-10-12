@@ -11,7 +11,7 @@ public class Exam2
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("ÇëÊäÈëÒ»¸öÕûÊı");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°");
 		try
 		{
 			int inputNum = scanner.nextInt();
@@ -21,11 +21,11 @@ public class Exam2
 				result*=inputNum;
 				inputNum-=1;
 			}
-			System.out.println("³Ë½×Îª£º"+result);
+			System.out.println("ä¹˜é˜¶ä¸ºï¼š"+result);
 		}
 		catch (InputMismatchException e)
 		{
-			System.out.println("ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈë");
+			System.out.println("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
 			Exam2.main(args);
 		}
 	}

@@ -7,7 +7,7 @@ import edu.diaz.randomarray.ArrayLengthException;
 import edu.diaz.randomarray.BuildRandomArray;
 /**
  * 
- * ¹ØÓÚÅÅĞòµÄ×÷Òµ
+ * å…³äºæ’åºçš„ä½œä¸š
  * @author Diaz
  *
  */
@@ -21,16 +21,16 @@ public class Exam2
 		{
 
 			int[] randomArray;
-			System.out.println("Çë¶¨ÒåÒ»¸öÊı×éµÄ³¤¶È");
-			randomArray = BuildRandomArray.getIntegerRandomArray(new Scanner(System.in).nextInt());//»ñÈ¡Ò»¸öËæ»úÊı×é
-			System.out.print("Êı×éÒÑÉú³É£º");
-			for (int i : randomArray)//ÏÔÊ¾Ô­Ê¼Êı×é
+			System.out.println("è¯·å®šä¹‰ä¸€ä¸ªæ•°ç»„çš„é•¿åº¦");
+			randomArray = BuildRandomArray.getIntegerRandomArray(new Scanner(System.in).nextInt());//è·å–ä¸€ä¸ªéšæœºæ•°ç»„
+			System.out.print("æ•°ç»„å·²ç”Ÿæˆï¼š");
+			for (int i : randomArray)//æ˜¾ç¤ºåŸå§‹æ•°ç»„
 			{
 				System.out.print(i+"\t");
 			}
 			System.out.println();
-			System.out.println("ÇëÑ¡ÔñÑ­»·ÀàĞÍ:1.Ñ¡ÔñÅÅĞò\t2.Ã°ÅİÅÅĞò");
-			switch (new Scanner(System.in).nextInt())//Ñ¡ÔñÅÅĞòÀàĞÍ
+			System.out.println("è¯·é€‰æ‹©å¾ªç¯ç±»å‹:1.é€‰æ‹©æ’åº\t2.å†’æ³¡æ’åº");
+			switch (new Scanner(System.in).nextInt())//é€‰æ‹©æ’åºç±»å‹
 			{
 			case 1:
 			{
@@ -43,29 +43,29 @@ public class Exam2
 				bubbleSort(randomArray);
 				break;
 			}
-			default://Òì³£´¦Àí£¬Èç¹ûÊäÈëÓĞÎóÍË³ö³ÌĞò
+			default://å¼‚å¸¸å¤„ç†ï¼Œå¦‚æœè¾“å…¥æœ‰è¯¯é€€å‡ºç¨‹åº
 			{
-				System.err.println("ÊäÈë´íÎó£¬³ÌĞòÍË³ö");
-				Thread.sleep(1000);//Ïß³ÌĞİÃß£¬·ÀÖ¹¿´²»µ½ĞÅÏ¢
+				System.err.println("è¾“å…¥é”™è¯¯ï¼Œç¨‹åºé€€å‡º");
+				Thread.sleep(1000);//çº¿ç¨‹ä¼‘çœ ï¼Œé˜²æ­¢çœ‹ä¸åˆ°ä¿¡æ¯
 				return;
 			}
 			}
-		} catch (ArrayLengthException e)//×Ô¶¨ÒåµÄÒì³£²¶»ñ£¬µ±ÓÃ»§ÊäÈëµÄÊı×é³¤¶ÈĞ¡ÓÚ1Ê±³ö·¢
+		} catch (ArrayLengthException e)//è‡ªå®šä¹‰çš„å¼‚å¸¸æ•è·ï¼Œå½“ç”¨æˆ·è¾“å…¥çš„æ•°ç»„é•¿åº¦å°äº1æ—¶å‡ºå‘
 		{
 			// TODO: handle exception
 			e.printStackTrace();
-		} catch (InputMismatchException e)//·ÀÖ¹ÊäÈë¸ñÊ½²»Æ¥Åä
+		} catch (InputMismatchException e)//é˜²æ­¢è¾“å…¥æ ¼å¼ä¸åŒ¹é…
 		{
 			// TODO: handle exception
-			System.err.println("ÊäÈëÓĞÎóÇëÖØĞÂÊäÈë");
+			System.err.println("è¾“å…¥æœ‰è¯¯è¯·é‡æ–°è¾“å…¥");
 			main(args);
 		}
 	}
 
 	/**
 	 * 
-	 * Ñ¡ÔñÅÅĞò
-	 * @param arr Òª½øĞĞÉ¸Ñ¡ µÄÊı×é
+	 * é€‰æ‹©æ’åº
+	 * @param arr è¦è¿›è¡Œç­›é€‰ çš„æ•°ç»„
 	 */
 	public static void selectionSort(int[] arr)
 	{
@@ -91,8 +91,8 @@ public class Exam2
 
 	
 	/**
-	 * Ã°ÅİÅÅĞò
-	 * @param arr Òª½øĞĞÉ¸Ñ¡ µÄÊı×é
+	 * å†’æ³¡æ’åº
+	 * @param arr è¦è¿›è¡Œç­›é€‰ çš„æ•°ç»„
 	 */
 	public static void bubbleSort(int[] arr)
 	{

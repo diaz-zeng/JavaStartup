@@ -23,7 +23,7 @@ public class Account
 			balance -= amount;
 		} else
 		{
-			System.out.println("Óà¶î²»×ã");
+			System.out.println("ä½™é¢ä¸è¶³");
 		}
 	}
 

@@ -11,7 +11,7 @@ public class Exam2
 
 	public static void main(String[] args)
 	{
-		System.out.println( "ÇëÊäÈëÄãÒª²éÑ¯µÄÔªËØÖµ");
+		System.out.println( "è¯·è¾“å…¥ä½ è¦æŸ¥è¯¢çš„å…ƒç´ å€¼");
 		int target = new Scanner(System.in).nextInt();
 		// TODO Auto-generated method stub
 		for(int i=0;i<a.length;i++)
@@ -19,12 +19,12 @@ public class Exam2
 			if(a[i]==target)
 			{
 				flag = true;
-				System.out.println(a[i]+"µÄË÷ÒıÖµÎª£º"+i);
+				System.out.println(a[i]+"çš„ç´¢å¼•å€¼ä¸ºï¼š"+i);
 			}
 		}
 		if(flag==false)
 		{
-			System.out.println("Î´ÕÒµ½¸ÃÔªËØ");
+			System.out.println("æœªæ‰¾åˆ°è¯¥å…ƒç´ ");
 		}
 	}
 

@@ -14,9 +14,9 @@ public class Exam4_5
 
 			Scanner scanner = new Scanner(System.in);
 			int inputA, inputB, tempA, tempB, tempC;
-			System.out.println("ÇëÊäÖµA£º");
+			System.out.println("è¯·è¾“å€¼Aï¼š");
 			inputA = scanner.nextInt();
-			System.out.println("ÇëÊäÖµB£º");
+			System.out.println("è¯·è¾“å€¼Bï¼š");
 			inputB = scanner.nextInt();
 			tempA = inputA > inputB ? inputA : inputB;
 			tempB = inputA < inputB ? inputA : inputB;
@@ -26,12 +26,12 @@ public class Exam4_5
 				tempA = tempB;
 				tempB = tempC;
 			}
-			System.out.println(inputA+"ºÍ"+inputB+"µÄ×îĞ¡¹«Ô¼ÊıÊÇ"+tempA+",×îĞ¡¹«±¶ÊıÊÇ£º"+inputA*inputB/tempA);
+			System.out.println(inputA+"å’Œ"+inputB+"çš„æœ€å°å…¬çº¦æ•°æ˜¯"+tempA+",æœ€å°å…¬å€æ•°æ˜¯ï¼š"+inputA*inputB/tempA);
 
 		} catch (InputMismatchException e)
 		{
 			// TODO: handle exception
-			System.err.println("ÊäÈëÓĞÎóÇëÖØĞÂÊäÈë!");
+			System.err.println("è¾“å…¥æœ‰è¯¯è¯·é‡æ–°è¾“å…¥!");
 			main(args);
 			return;
 		}

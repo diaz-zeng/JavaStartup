@@ -4,9 +4,9 @@ public class Exam1
 {
 	public static void main(String[] args)
 	{
-		System.out.println("使用for循环得出的结果："+doMathByForLoop());
-		System.out.println("使用do while循环得出的结果："+doMathByDoLoop());
-		System.out.println("使用while循环得出的结果："+doMathByWhileLoop());
+		System.out.println("浣跨敤for寰幆寰楀嚭鐨勭粨鏋滐細"+doMathByForLoop());
+		System.out.println("浣跨敤do while寰幆寰楀嚭鐨勭粨鏋滐細"+doMathByDoLoop());
+		System.out.println("浣跨敤while寰幆寰楀嚭鐨勭粨鏋滐細"+doMathByWhileLoop());
 		
 	}
 	public static int doMathByForLoop()

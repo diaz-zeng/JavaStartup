@@ -1,7 +1,7 @@
 package edu.diaz.randomarray;
 
 /**
- * ´´½¨Ëæ»úÊı×éµÄÀà
+ * åˆ›å»ºéšæœºæ•°ç»„çš„ç±»
  * 
  * @author zly98
  *
@@ -9,8 +9,8 @@ package edu.diaz.randomarray;
 public class BuildRandomArray
 {
 	/**
-	 * Ò»¸öÔªËØËæ»ú³¤¶ÈÎªÊ®µÄintÊı×é
-	 * @return Ëæ»úÊı×é
+	 * ä¸€ä¸ªå…ƒç´ éšæœºé•¿åº¦ä¸ºåçš„intæ•°ç»„
+	 * @return éšæœºæ•°ç»„
 	 */
 	public static int[] getIntegerRandomArray()
 	{
@@ -22,10 +22,10 @@ public class BuildRandomArray
 		return result;
 	}
 	/**
-	 * ´´½¨Ò»¸öÔªËØËæ»ú³¤¶È×Ô¶¨µÄÕûĞÎÊı×é
-	 * @param arrayLength Êı×éµÄ³¤¶È
-	 * @return Ëæ»úÊı×é
-	 * @throws ArrayLengthException Êı×é³¤¶ÈĞ¡ÓÚ1
+	 * åˆ›å»ºä¸€ä¸ªå…ƒç´ éšæœºé•¿åº¦è‡ªå®šçš„æ•´å½¢æ•°ç»„
+	 * @param arrayLength æ•°ç»„çš„é•¿åº¦
+	 * @return éšæœºæ•°ç»„
+	 * @throws ArrayLengthException æ•°ç»„é•¿åº¦å°äº1
 	 */
 	public static int[] getIntegerRandomArray(int arrayLength) throws ArrayLengthException
 	{
